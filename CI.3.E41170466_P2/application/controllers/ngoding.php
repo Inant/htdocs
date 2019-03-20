@@ -5,9 +5,9 @@ class Ngoding extends CI_Controller {
 	
 	function index(){
 		$this->load->library('malasngoding');
-		$this->Ngoding->nama_saya();
+		$this->malasngoding->nama_saya();
                 echo "<br/>";
-                $this->Ngoding->nama_kamu("Andi");
+                $this->malasngoding->nama_kamu("Andi");
 	}
  
 }

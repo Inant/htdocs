@@ -10,7 +10,3 @@ class Malasngoding{
 		echo "Nama kamu adalah ". $nama ." !";
 	}
 }
-
-class ngoding{
-
-}
